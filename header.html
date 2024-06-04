@@ -1,0 +1,76 @@
+<header>
+    <div class="container">
+        <div class="navbar">
+            <img src="./images/logo.png" alt="logo" class="logo">
+            <nav>
+                <li><a href="#info">About me</a></li>
+                <li><a href="#main2">Skills</a></li>
+                <li><a href="#main3">Education</a></li>
+                <li><a href="#main4">Resume</a></li>
+            </nav>
+            <a class="button" id="button" href="#button">Contact Me</a>
+        </div>
+    </div>
+</header>
+
+<style>
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    }
+
+    .container{
+        width: 100%;
+        padding: 0 50px;
+        margin: 0 auto;
+
+    }
+
+    .logo img{
+        display: block;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar nav {
+        padding: 1.5rem;
+        display: flex;
+        align-items: center;
+    }
+
+    #button {
+        text-decoration: none;
+        color: white;
+        border-style: solid;
+        border-color: white;
+        padding: 10px 10px;
+        border-radius: 5px;
+    }
+
+    .navbar nav li{
+        margin-left: 1rem;
+        list-style: none;
+    }
+
+    .navbar nav li a {
+        text-decoration: none;
+        padding: 10px 10px;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .navbar nav li a:hover{
+        background: lightseagreen;
+    }
+
+    #button:hover {
+        background-color: lightseagreen;
+    }
+</style>
