@@ -5,21 +5,53 @@
         <meta charset="UTF-8">
         <title>Viraj's Skills</title>
         <meta name="viewport" content="width=device-width, intial-scale=1.0">
-        <!-- <link rel="stylesheet" href="./home.css"> -->
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+        <script> 
+            $(function(){
+                $("#header").load("CS601_FinalProject_Patel/header.html"); 
+                $("#footer").load("CS601_FinalProject_Patel/footer.html"); 
+            });
+        </script> 
     </head>
     
     <body>
-        <header>
+        <div id="header"></div>
+        <h1>My Skills</h1>
+        <div class="container">
+            <div class="skills-page">
+                <div class="skills">
+                    <img src="#">
+                    <h3>Java</h3>
+                </div>
+                <p>This is Java.</p>
+            </div>
+            <div class="skills-page">
+                <div class="skills">
+                    <img src="#">
+                    <h3>Python</h3>
+                </div>
+                <p>This is Python.</p>
+            </div>
+            <div class="skills-page">
+                <div class="skills">
+                    <img src="#">
+                    <h3>HTML/CSS/JS</h3>
+                </div>
+                <p>This is Frontend.</p>
+            </div>
+            <div class="skills-page">
+                <div class="skills">
+                    <img src="#">
+                    <h3>C++</h3>
+                </div>
+                <p>This is C++.</p>
+            </div>
+        </div>
             
-        </header>
-
-        <footer>
-
-        </footer>
-
-
-        <script src="./headerfooter.js"></script>
-
+        <div id="footer"></div>
     </body>
 
 </html>
