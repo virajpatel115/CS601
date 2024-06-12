@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     padding:0;
-    margin:0;
 }
 
 /* START OF BODY */
@@ -10,8 +9,7 @@ body {
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    margin: 0;
-    background-color: lightgrey;
+    background-color: lightgray;
 }
 
 .container {
@@ -19,13 +17,13 @@ body {
     flex-direction: row;
     justify-content: space-between;
     flex-flow: wrap;
-    padding: 4rem;
+    padding: 4em;
     text-align: center;
+    background-color: aliceblue;
 }
 
 .skills-page {
-    padding: 2em;
-    background-color: aliceblue;
+    padding: 4em;
 }
 
 .section {
@@ -39,6 +37,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 10px;
-    height: 10px;
+    width: 10em;
+    height: 10em;
 }
