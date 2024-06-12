@@ -1,0 +1,74 @@
+<!-- HTML File of subscription form. -->
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Subscription Form</title>
+        <meta charset="utf-8">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+        <script> 
+            $(function(){
+                $("#header").load("../header.html"); 
+                $("#footer").load("../footer.html"); 
+            });
+        </script>
+    </head>
+    <body>
+        <div id="header"></div>
+
+        <div class="container">
+
+            <link rel="stylesheet" href="style.css">
+            <script src="app.js" defer></script>
+        
+            <div id="header" class="header">
+                <h1 id= "title">Subscription to Newsletter</h1>
+            </div>
+            
+            <form id="form" class="form">
+                <div class="row">
+                    <label for="first">First Name: </label>
+                    <input type="text" id="first" name="first">
+                    <p class="message"></p>
+                </div>
+        
+                <div class="row">
+                    <label for="last">Last Name: </label>
+                    <input type="text" id="last" name="last">
+                    <p class="message"></p>
+                </div>
+        
+                <div class="row">
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email">
+                    <p class="message"></p>
+                </div>
+        
+                <div class="row">
+                    <label for="package">Package: </label>
+                    <select id="package" name="package">
+                        <option value="Option">Option</option>
+                        <option value="bronze">Bronze</option>
+                        <option value="silver">Silver</option>
+                        <option value="gold">Gold</option>
+                        <option value="plat">Platinum</option>
+                    </select>
+                    <p class="message"></p>
+                </div>
+        
+                <div class="row">
+                    <input type="checkbox" id="checkbox" name="checkbox">
+                    <label for="checkbox">Subscribe to newsletter</label>
+                    <p class="message"></p>
+                </div>
+        
+                <button>Submit</button>
+            </form>
+            
+            <div id="success"></div>
+        </div>
+        <div id="footer"></div>
+    </body>
+</html>
