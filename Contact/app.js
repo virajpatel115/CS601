@@ -9,7 +9,6 @@ function validateInputs(event) {
     const firstValue = form.first.value.trim();
     const lastValue = form.last.value.trim();
     const emailValue = form.email.value.trim();
-    const packageValue = form.package.value.trim();
 
     let formValid = true;
 
@@ -40,28 +39,14 @@ function validateInputs(event) {
         success(email);
     }
 
-    if(packageValue === "Option") {
-        error(package, 'Please select a package option from the dropdown!');
-        formValid = false;
-    }else{
-        success(package);
-    }
-
-    if(!checkbox.checked) {
-        error(checkbox, 'Checkbox must be checked to proceed!');
-        formValid = false;
-    }else{
-        success(checkbox);
-    }
-
     //If all validation passes, success message.
     if (formValid) {
         document.getElementById('header').style.display = 'none';
         document.getElementById('form').style.display = 'none';
 
         const success = document.getElementById('success');
-        success.innerHTML = `"Thank you, ${firstValue} ${lastValue}, for subscribing!
-        Your email ${emailValue} is registered with our ${packageValue} package.`;
+        success.innerHTML = `"Thank you, ${firstValue} ${lastValue}, for contacting me!
+        I will reach out via email as soon as possible!`;
         success.style.display = 'block';
     }
     
