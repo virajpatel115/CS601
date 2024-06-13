@@ -1,33 +1,27 @@
-import React from 'react'
-import 'react-slideshow-image/dist/styles.css'
-import {Fade} from 'react-slideshow-image'
-import data from "./slideshow.json";
-
-const myStyle = {
-    display: 'flex',
-    justifyContent: 'center',
-    height: '20em'
-}
-const textStyle = {
-    fontSize: "20px"
-}
+import { Slide } from 'react-slideshow-image';
+import './App.css';
+import InventoryList from './slideshow.json';
 
 function App() {
-    return (
-        <div class="slide-container">
-            <Fade>
-                {data.map((image, num) => (
-                    <div key={num}>
-                        <div style={myStyle}>
-                            <span class="description" style={textStyle}>
-                                {image.description}
-                            </span>
-                        </div>
-                    </div>
-                ))}
-            </Fade>
-        </div>
-    )
+  return (
+    <div className="App">
+      <header className="App-header">
+        <h2>Viraj's Grocery Store</h2>
+      </header>
+      <h2 id="inventory">Inventory</h2>
+      <div class="data">
+          <Slider />
+      </div>  
+      <footer className="App-footer">
+        <p> &copy; 2024 Viraj Grocery Store</p>
+        <ul>
+          <li><a href="#about">About us</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#policy">Privacy Policy</a></li>
+        </ul>
+      </footer>  
+    </div>
+  );
 }
 
 export default App;
