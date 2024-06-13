@@ -1,0 +1,4 @@
+{"dependencies":{"react-slideshow-image":"^4.3.1"},"devDependencies":{"gh-pages":"^6.1.1"},
+"homepage": "https://virajpatel115.github.io/CS601_FinalProject_Patel",
+"scripts": {"predeploy": "npm run build", "deploy": "gh-pages -d build"}
+}
