@@ -17,4 +17,4 @@ function ClassList() {
 export default ClassList;
 
 // Render the ClassList component in the 'app' div
-ReactDOM.render(<ClassList />, document.getElementById('app'));
+ReactDOM.render(<ClassList />, document.getElementById('root'));
