@@ -1,5 +1,5 @@
 // React function component to render a list of class names
-import './App.css';
+import "./App.css";
 
 function ClassList() {
   const classes = ['Biology', 'Chemistry', 'Physics', 'Mathematics'];
@@ -16,5 +16,7 @@ function ClassList() {
   );
 }
 
+export default ClassList;
+
 // Render the ClassList component in the 'app' div
-ReactDOM.render(  <React.StrictMode><ClassList /></React.StrictMode>, document.getElementById('app'));
+ReactDOM.render(<ClassList />, document.getElementById('app'));
