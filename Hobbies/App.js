@@ -14,11 +14,11 @@ const textStyle = {
 
 function App() {
     return (
-        <div class="container">
+        <div class="slide-container">
             <Fade>
                 {data.map((image, num) => (
                     <div key={num}>
-                        <div style={...myStyle}>
+                        <div style={myStyle}>
                             <span class="description" style={textStyle}>
                                 {image.description}
                             </span>
