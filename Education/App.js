@@ -15,7 +15,7 @@ class ClassList extends Component {
       <div className="container">
             {classes.map((className, index) => (
                 <div className="card" key={index}>
-                  <img key={image} src={require('./${image}.png')} clasName="my-img"></img>
+                  <img key={image} src={require(`./${image}.png`)} clasName="my-img"></img>
                   <div>{className.description}</div>
                 </div>
             ))}
