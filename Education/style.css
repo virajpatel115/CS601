@@ -33,8 +33,9 @@ body {
 }
 .app-container {
   background-color: lightseagreen;
-  max-width: 100em;
-  padding: 3em 3em;
+  justify-content: center;
+  max-width: 60em;
+  padding: 10em 1em;
   border-radius: 1em;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
