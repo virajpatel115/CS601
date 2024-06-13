@@ -32,7 +32,7 @@ body {
   background: #eee;
 }
 .app-container {
-  position: relative;
+  position: fixed;
   background-color: lightseagreen;
   justify-content: center;
   top:50%;
