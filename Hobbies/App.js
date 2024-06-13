@@ -12,7 +12,7 @@ function ClassList() {
               <div className="card" key={index}>{className}</div>
           ))}
       
-      </div>
+    </div>
   );
 }
 
