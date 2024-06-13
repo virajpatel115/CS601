@@ -1,4 +1,6 @@
 // React function component to render a list of class names
+import './App.css'
+
 function ClassList() {
   const classes = ['Biology', 'Chemistry', 'Physics', 'Mathematics'];
   
