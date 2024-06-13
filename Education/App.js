@@ -2,10 +2,10 @@
 
 function ClassList() {
   const classes = [
-    { "img": "./basketball.png", "description": "I like to play"},
-    { "img": "traveling.png", "description": "I like to play"},
-    { "img": "gym.png", "description": "I like to play"},
-    { "img": "photography.png", "description": "I like to play"}
+    { "img": "basketball", "description": "I like to play"},
+    { "img": "traveling", "description": "I like to play"},
+    { "img": "gym", "description": "I like to play"},
+    { "img": "photography", "description": "I like to play"}
   ]
   
   
@@ -14,7 +14,7 @@ function ClassList() {
       
           {classes.map((className, index) => (
               <div className="card" key={index}>
-                <img src={className.img}></img>
+                <img src={require('./' + className.img + '.png')}></img>
                 <div>{className.description}</div>
               </div>
           ))}
