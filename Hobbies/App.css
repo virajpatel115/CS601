@@ -1,59 +1,24 @@
-.App {
-    text-align: center;
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0f0f0;
   }
-  
-  
-.App-header {
-    background-color: #282c34;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-    padding: 1em;
-}
-
-.App-link {
-    color: #61dafb;
-}
-
-.InventoryList {
-    border: 2px solid black;
-    width: 20%;
-    list-style: none;
-}
-
-#inventory {
-    font-size: 2em;
-}
-
-.data {
-    display: flex;
-    flex-direction: row;
-    gap:2em;
-    padding: 5em 1em;
-}
-
-.App-footer{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: lightgray;
-}
-
-.App-footer ul {
-    display: flex;
-    gap: 1em;
-    justify-content: center;
-    list-style: none;
-}
-
-@keyframes App-logo-spin {
-from {
-    transform: rotate(0deg);
-}
-to {
-    transform: rotate(360deg);
-}
-}
+  .card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    margin: 10px 0;
+    list-style-type: none;
+  }
+  .card:hover {
+    background: #eee;
+  }
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }

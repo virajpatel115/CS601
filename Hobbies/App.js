@@ -1,27 +1,18 @@
-import { Slide } from 'react-slideshow-image';
-import './App.css';
-import InventoryList from './slideshow.json';
-
-function App() {
+// React function component to render a list of class names
+function ClassList() {
+  const classes = ['Biology', 'Chemistry', 'Physics', 'Mathematics'];
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <h2>Viraj's Grocery Store</h2>
-      </header>
-      <h2 id="inventory">Inventory</h2>
-      <div class="data">
-          <Slider />
-      </div>  
-      <footer className="App-footer">
-        <p> &copy; 2024 Viraj Grocery Store</p>
-        <ul>
-          <li><a href="#about">About us</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#policy">Privacy Policy</a></li>
-        </ul>
-      </footer>  
-    </div>
+    <div className="container">
+      
+          {classes.map((className, index) => (
+       
+              <div className="card" key={index}>{className}</div>
+          ))}
+      
+      </div>
   );
 }
 
-export default App;
+// Render the ClassList component in the 'app' div
+ReactDOM.render(<ClassList />, document.getElementById('app'));
