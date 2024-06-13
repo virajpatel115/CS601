@@ -33,7 +33,7 @@ body {
 }
 .app-container {
   background-color: lightseagreen;
-  max-width: 20em;
+  max-width: 100em;
   padding: 3em 3em;
   border-radius: 1em;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
