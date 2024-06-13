@@ -1,28 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
     <head>
         <meta charset="UTF-8">
         <title>Viraj's Header</title>
         <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <script src="https://kit.fontawesome.com/28ea3b8751.js" crossorigin="anonymous"></script>
     </head>
     
     <body>
-        <header>
-            <div class="container">
-                <div class="navbar">
-                        <img src="./logo.jpg" alt="logo" class="logo">
-                    <nav>
-                        <li><a href="https://virajpatel115.github.io/CS601_FinalProject_Patel/">Home</a></li>
-                        <li><a href="#info">About me</a></li>
-                        <li><a href="https://virajpatel115.github.io/CS601_FinalProject_Patel/Skills/">Skills</a></li>
-                        <li><a href="#main3">Hobbies</a></li>
-                        <li><a href="https://virajpatel115.github.io/CS601_FinalProject_Patel/Education/">Education</a></li>
-                        <li><a href="https://virajpatel115.github.io/CS601_FinalProject_Patel/Resume/">Resume</a></li>
-                    </nav>
-                    <a class="button" id="button" href="https://virajpatel115.github.io/CS601_FinalProject_Patel/Contact/">Contact Me</a>
-                </div>
-            </div>
-        </header>        
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <img src="./logo.jpg" alt="logo" class="logo">
+            <ul>
+                <li><a href="https://virajpatel115.github.io/CS601_FinalProject_Patel/">Home</a></li>
+                <li><a href="#info">About me</a></li>
+                <li><a href="https://virajpatel115.github.io/CS601_FinalProject_Patel/Skills/">Skills</a></li>
+                <li><a href="#main3">Hobbies</a></li>
+                <li><a href="https://virajpatel115.github.io/CS601_FinalProject_Patel/Education/">Education</a></li>
+                <li><a href="https://virajpatel115.github.io/CS601_FinalProject_Patel/Resume/">Resume</a></li>
+                <a class="button" id="button" href="https://virajpatel115.github.io/CS601_FinalProject_Patel/Contact/">Contact Me</a>
+            </ul>
+        </nav>    
     </body>
 </html>
 
@@ -30,37 +31,63 @@
 
 
 <style>
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: black;
-        color: white;
+    * {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
     }
 
-    .container{
+    nav {
+        background-color: black;
+        height: 6em;
         width: 100%;
-        padding: 0 50px;
-        margin: 0 auto;
-
     }
 
     .logo {
-        display: block;
+        display: inline-block;
         width: 5em;
-        height: 5em;
+        height: 6em;
     }
 
-    .navbar{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    nav ul {
+        float: right;
+        margin-right: 1em;
     }
 
     .navbar nav {
         padding: 1.5rem;
         display: flex;
         align-items: center;
+    }
+
+    nav ul li {
+        color: white;
+        display: inline-block;
+        line-height: 95px;
+        margin: 0 5px;
+    }
+
+    nav ul li a {
+        color: white;
+    }
+
+    nav ul li a:hover{
+        background: lightseagreen;
+    }
+    
+    .checkbtn {
+        font-size: 20px;
+        color: white;
+        float: left;
+        padding: 10px 20px;
+        line-height: 80px;
+        cursor: pointer;
+    }
+
+    #check {
+        display: none;
     }
 
     #button {
@@ -72,23 +99,34 @@
         border-radius: 5px;
     }
 
-    .navbar nav li{
-        margin-left: 1rem;
-        list-style: none;
-    }
-
-    .navbar nav li a {
-        text-decoration: none;
-        padding: 10px 10px;
-        border-radius: 5px;
-        color: white;
-    }
-
-    .navbar nav li a:hover{
-        background: lightseagreen;
-    }
-
     #button:hover {
         background-color: lightseagreen;
     }
+
+    @media(max-width: 768px) {
+        .checkbtn {
+            display: block;
+        }
+
+        ul {
+            position: fixed;
+            width: 25%;
+            height: 100vh;
+            background-color: black;
+            left: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: block;
+            margin: 50px 0;
+            line-height: 30px;
+
+        }
+
+        #check:checked ~ ul {
+            display: none;
+            left: 0;
+        }
+    }
+ 
 </style>
