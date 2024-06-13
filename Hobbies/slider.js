@@ -15,9 +15,9 @@ function slider() {
         <div class="container" id="container">
             <Fade>
                 {pictures.map((image, num) => (
-                    <div key={num}>
+                    <div class="info" key={num}>
                         <div class="slide-image">
-                            <img src="${image.img}"/>
+                            {image.img}
                         </div>
                         <span class="description">
                             {image.description}
@@ -29,3 +29,5 @@ function slider() {
 
     )
 }
+
+export default slider;
