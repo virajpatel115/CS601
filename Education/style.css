@@ -20,7 +20,6 @@ body {
 }
 
 .card {
-  background-color: lightseagreen;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 10px 20px;
@@ -31,6 +30,7 @@ body {
   background: #eee;
 }
 .container {
+  background-color: lightseagreen;
   max-width: 600px;
   padding: 20px;
   border-radius: 8px;
