@@ -2,7 +2,7 @@
 
 function ClassList() {
   const classes = [
-    { "img": "basketball.png", "description": "I like to play"},
+    { "img": "./basketball.png", "description": "I like to play"},
     { "img": "traveling.png", "description": "I like to play"},
     { "img": "gym.png", "description": "I like to play"},
     { "img": "photography.png", "description": "I like to play"}
