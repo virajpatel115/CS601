@@ -1,6 +1,6 @@
 import React from 'react'
 import 'react-slideshow-image/dist/styles.css'
-import { Slide, Zoom} from 'react-slideshow-image'
+import {Fade} from 'react-slideshow-image'
 
 //JSON for slideshow
 const pictures = [
