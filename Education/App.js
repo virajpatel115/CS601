@@ -5,13 +5,11 @@ function ClassList() {
   
   return (
     <div className="container">
+        {classes.map((className, index) => (
+            <div className="card" key={index}>{className}</div>
+        ))}
       
-          {classes.map((className, index) => (
-       
-              <div className="card" key={index}>{className}</div>
-          ))}
-      
-      </div>
+    </div>
   );
 }
 
