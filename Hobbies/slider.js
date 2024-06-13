@@ -12,10 +12,10 @@ const pictures = [
 
 function slider() {
     return (
-        <div class= 'container'>
+        <div class= 'container' id="container">
             <Fade>
                 {pictures.map((image, num) => (
-                    <div> key={num}
+                    <div key={num}>
                         <div class="slide-image">
                             <img src="${image.img}"/>
                         </div>
@@ -23,8 +23,7 @@ function slider() {
                             {image.description}
                         </span>
                     </div>
-                )
-                )}s
+                ))}
             </Fade>
         </div>
 
