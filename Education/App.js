@@ -10,7 +10,6 @@ class ClassList extends Component {
       { "img": "gym", "description": "I like to play"},
       { "img": "photography", "description": "I like to play"}
     ];
-    
   
     return (
       <div className="container">
