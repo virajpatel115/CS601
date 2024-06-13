@@ -1,33 +1,22 @@
 // React function component to render a list of class names
 
-import React, { Component } from "react";
-
-class ClassList extends Component {
-  render() {
-    const classes = [
-      { "img": "basketball", "description": "I like to play"},
-      { "img": "traveling", "description": "I like to play"},
-      { "img": "gym", "description": "I like to play"},
-      { "img": "photography", "description": "I like to play"}
-    ];
-  
-    return (
-      <div className="container">
-            {classes.map((className, index) => (
-                <div className="card" key={index}>
-                  <img key={image} src={require(`./${image}.png`)} clasName="my-img"></img>
-                  <div>{className.description}</div>
-                </div>
-            ))}
-        
-        </div>
-    );}
-  }
-  
-  export default ClassList;
+function ClassList() {
+  const classes = [
+    'Biology', 'Chemistry', 'Physics', 'Mathematics'
 
 
+  ];
   
+  return (
+    <div className="container">
+      
+          {classes.map((className, index) => (
+              <div className="card" key={index}>{className}</div>
+          ))}
+      
+      </div>
+  );
+}
 
 // Render the ClassList component in the 'app' div
 ReactDOM.render(<ClassList />, document.getElementById('app'));
