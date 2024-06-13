@@ -31,7 +31,7 @@ body {
 .card:hover {
   background: #eee;
 }
-.container {
+.app-container {
   background-color: lightseagreen;
   max-width: 20em;
   padding: 3em 3em;

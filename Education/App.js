@@ -5,7 +5,7 @@ function ClassList() {
   const masters = ['Biology', 'Chemistry', 'Physics', 'Mathematics'];
 
   return (
-    <div className="container">
+    <div className="app-container">
       <h2>My Education</h2>
       <h3>Undergraduate</h3>
       <div className="under">
@@ -13,7 +13,7 @@ function ClassList() {
             <div className="card" key={index}>{className}</div>
         ))}   
       </div>
-      
+
       <h3>Graduate</h3>
       <div className="masters">
         {under.map((className, index) => (
