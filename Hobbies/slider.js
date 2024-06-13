@@ -26,7 +26,6 @@ function slider() {
                 ))}
             </Fade>
         </div>
-
     )
 }
 
