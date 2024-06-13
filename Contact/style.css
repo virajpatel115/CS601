@@ -1,5 +1,11 @@
 /* CSS styling of form elements, manipulating fonts, display, layout, etc.*/
 
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -16,19 +22,19 @@ body {
 }
 
 .sub {
-    background-color: white;
     font-size: 12px;
+    justify-content: center;
     text-align: center;
-    padding: 10px;
+    width: 25em;
+    padding: 2em;
     margin-bottom: 30px;
-    border-radius: 5px;
 }
 
 form {
     background: white;
     border-radius: 5px;
-    width: 400px;
-    padding: 25px;
+    width: 25em;
+    padding: 3em;
 }
 
 .row.error p {
