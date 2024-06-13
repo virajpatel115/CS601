@@ -12,7 +12,7 @@ const pictures = [
 
 function slider() {
     return (
-        <div class= 'container' id="container">
+        <div class="container" id="container">
             <Fade>
                 {pictures.map((image, num) => (
                     <div key={num}>
