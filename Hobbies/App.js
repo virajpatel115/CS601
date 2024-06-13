@@ -15,4 +15,4 @@ function ClassList() {
 }
 
 // Render the ClassList component in the 'app' div
-ReactDOM.render(<ClassList />, document.getElementById('app'));
+ReactDOM.render(  <React.StrictMode><ClassList /></React.StrictMode>, document.getElementById('app'));
