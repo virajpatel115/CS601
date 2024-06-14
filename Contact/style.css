@@ -18,7 +18,7 @@ main {
     text-align: center;
     margin: 10em auto;
     background-image: url('https://virajpatel115.github.io/CS601_FinalProject_Patel/Contact/background.jpg');
-    background-size: cover;
+    background-size: contain;
 }
 
 .sub {
