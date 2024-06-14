@@ -82,7 +82,7 @@ main {
   }
   
   .dropzone {
-    margin: 7rem 25rem;
+    margin: auto;
     width: 150px;
     height: 150px;
     display: flex;
