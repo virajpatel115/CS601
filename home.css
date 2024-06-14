@@ -14,7 +14,7 @@ body {
     background-color: lightgrey;
 }
 
-main {
+.main {
     flex:1;
 }
 
