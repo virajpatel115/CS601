@@ -28,7 +28,7 @@ dropZone.addEventListener('drop', ev => {
   ev.preventDefault();
   const data = ev.dataTransfer.getData('text');
   const draggableElement = document.getElementById(data);
-  if(draggableElement.id == "drag-item2") {
+  if(draggableElement.id === "drag-item2") {
     ev.target.appendChild(draggableElement);
     ev.target.style.border = '2px dashed #ccc'; // Reset border if needed
     ev.target.style.backgroundColor = "";
