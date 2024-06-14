@@ -18,7 +18,7 @@ main {
     text-align: center;
     margin: 10em auto;
     background-image: url('https://virajpatel115.github.io/CS601_FinalProject_Patel/Contact/background.jpg');
-    background-size: 300px;
+    background-size: cover;
 }
 
 .sub {
@@ -31,7 +31,6 @@ main {
 }
 
 .form {
-    background: lightgrey;
     border-radius: 5px;
     width: 25em;
     padding: 3em;
