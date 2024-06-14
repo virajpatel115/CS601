@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Viraj's Hobbies</title>
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+        <script> 
+            $(function(){
+                $("#header").load("header.html"); 
+                $("#footer").load("footer.html"); 
+            });
+        </script>   
+    </head>
+    
+    <body>
+        <div id="header"></div>
+        <div class="about" id="about">
+            <div class="content">
+                <h1>Viraj Patel</h1>
+                <p>I am an aspiring software developer, currently working
+                    as a Support Engineer in the payment software industry.
+                </p>
+            </div>
+            <div class="pic">
+                <img src="../Main.png">
+            </div>
+        </div>
+
+        <div class="info" id="info">
+            <div class="draggables">
+                <div class="draggable" draggable="true" id="drag-item1">Basketball</div>
+                <div class="draggable" draggable="true" id="drag-item2">Gym</div>
+                <div class="draggable" draggable="true" id="drag-item3">Photography</div>
+                <div class="draggable" draggable="true" id="drag-item4">Traveling</div>
+            </div>
+            <div class="dropzone" id="drop-zone">Drop here</div>
+        </div>
+        <div id="footer"></div>
+    </body>
+</html>
