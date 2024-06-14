@@ -1,8 +1,6 @@
 /* CSS styling of form elements, manipulating fonts, display, layout, etc.*/
-
 * {
     box-sizing: border-box;
-    padding:0;
     margin:0;
 }
 
@@ -10,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     margin: 0;
     background-image: url('https://virajpatel115.github.io/CS601_FinalProject_Patel/Contact/background.jpg');
     background-size: 300px;
