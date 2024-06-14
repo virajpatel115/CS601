@@ -14,9 +14,11 @@ body {
 #title {
     margin-top: 1em;
     text-align: center;
+    background-color: lightgrey;
 }
 
 .container {
+    height: 100vh;
     background-color: lightgrey;
     display: flex;
     flex-direction: row;
