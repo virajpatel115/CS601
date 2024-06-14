@@ -32,9 +32,6 @@ dropZone.addEventListener('drop', ev => {
   ev.target.style.border = '2px dashed #ccc'; // Reset border if needed
   ev.target.style.backgroundColor = "";
 
-  if(ev.target.childElementCount >1){
-    ev.target.removeChild(ev.target.firstElementChild);
-  }
 });
 
 dropZone.addEventListener('dragenter', ev => {
