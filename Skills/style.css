@@ -9,6 +9,7 @@ body {
     flex-direction: column;
     width: 100%;
     min-height: 100vh;
+    margin:0;
 }
 
 #title {
@@ -16,7 +17,7 @@ body {
     text-align: center;
 }
 
-.main {
+main {
     flex:1;
     background-color: lightgrey;
     display: flex;
