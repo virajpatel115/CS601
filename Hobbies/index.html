@@ -18,26 +18,27 @@
     
     <body>
         <div id="header"></div>
-        <div class="about" id="about">
-            <div class="content">
-                <h1>Viraj Patel</h1>
-                <p>I am an aspiring software developer, currently working
-                    as a Support Engineer in the payment software industry.
-                </p>
+        <main>
+            <div class="about" id="about">
+                <div class="content">
+                    <h1>Viraj Patel</h1>
+                    <p>I am an aspiring software developer, currently working
+                        as a Support Engineer in the payment software industry.
+                    </p>
+                </div>
+                <div class="pic">
+                    <img src="../Main.png">
+                </div>
             </div>
-            <div class="pic">
-                <img src="../Main.png">
+    
+            <div class="draggables">
+                <div class="draggable" draggable="true" id="drag-item1">Basketball</div>
+                <div class="draggable" draggable="true" id="drag-item2">Gym</div>
+                <div class="draggable" draggable="true" id="drag-item3">Photography</div>
+                <div class="draggable" draggable="true" id="drag-item4">Traveling</div>
             </div>
-        </div>
-
-        <div class="draggables">
-            <div class="draggable" draggable="true" id="drag-item1">Basketball</div>
-            <div class="draggable" draggable="true" id="drag-item2">Gym</div>
-            <div class="draggable" draggable="true" id="drag-item3">Photography</div>
-            <div class="draggable" draggable="true" id="drag-item4">Traveling</div>
-        </div>
-        <div class="dropzone" id="drop-zone">Drop here</div>
-        
+            <div class="dropzone" id="drop-zone">Drop here</div>
+        </main>
         <div id="footer"></div>
         <script src="App.js"></script>
     </body>
