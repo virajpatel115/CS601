@@ -41,7 +41,6 @@ function validateInputs(event) {
 
     //If all validation passes, success message.
     if (formValid) {
-        document.getElementById('header').style.display = 'none';
         document.getElementById('form').style.display = 'none';
 
         const success = document.getElementById('success');

@@ -22,34 +22,30 @@
     
     <body>
         <div id="header"></div>
-        <main>
-            <div id="sub" class="sub">
-                <h1 id= "title">Contact Me</h1>
+        <form class="form" id="form">
+            <h1 id= "title">Contact Me</h1>
+
+            <div class="row">
+                <label for="first">First Name: </label>
+                <input type="text" id="first" name="first">
+                <p class="message"></p>
             </div>
-            
-            <form id="form" class="form">
-                <div class="row">
-                    <label for="first">First Name: </label>
-                    <input type="text" id="first" name="first">
-                    <p class="message"></p>
-                </div>
-        
-                <div class="row">
-                    <label for="last">Last Name: </label>
-                    <input type="text" id="last" name="last">
-                    <p class="message"></p>
-                </div>
-        
-                <div class="row">
-                    <label for="email">Email: </label>
-                    <input type="email" id="email" name="email">
-                    <p class="message"></p>
-                </div>
-        
-                <button>Submit</button>
-            </form>
-            <div id="success"></div>
-        </main>
+    
+            <div class="row">
+                <label for="last">Last Name: </label>
+                <input type="text" id="last" name="last">
+                <p class="message"></p>
+            </div>
+    
+            <div class="row">
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email">
+                <p class="message"></p>
+            </div>
+    
+            <div class="row"><button>Submit</button></div>
+        </form>
+        <div id="success" style="display:none;"></div>
         <div id="footer"></div>
     </body>
 </html>

@@ -6,40 +6,36 @@
 
 body {
     display: flex;
-    flex-direction: column;
     width: 100%;
     min-height: 100vh;
-    margin: 0;
-
-}
-
-main {
-    flex:1;
-    text-align: center;
-    margin: 10em auto;
     background-image: url('https://virajpatel115.github.io/CS601_FinalProject_Patel/Contact/background.jpg');
     background-size: contain;
 }
 
-.sub {
-    font-size: 12px;
-    justify-content: center;
-    text-align: center;
-    width: 25em;
-    padding: 2em;
-    margin-bottom: 30px;
-}
-
-.form {
-    border-radius: 5px;
+form {
+    margin: auto;
     width: 25em;
     padding: 3em;
+    background-color: lightblue;
+    justify-content: center;
+    text-align: center;
+}
+
+#title {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.row {
+    padding: 1em;
+    font-size: 1.2em;
 }
 
 .row.error p {
     color:red;
     visibility: visible;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .row.success p {
@@ -49,8 +45,10 @@ main {
 }
 
 #success {
+    background-color: lightblue;
     font-size: 20px;
     text-align: center;
     margin: auto;
     width: 400px;
+    padding: 2em;
 }
