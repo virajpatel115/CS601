@@ -12,13 +12,13 @@ body {
     width: 100%;
     height: 100%;
     margin: 0;
-    background-color: lightgrey;
 }
 
 .container {
     padding: 2em;
     text-align: center;
     margin: 0 auto;
+    background-image: url(./background.jpg);
 }
 
 .sub {
