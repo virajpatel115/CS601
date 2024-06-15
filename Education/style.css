@@ -21,15 +21,15 @@ h1 {
 
 h2{
   margin-top: .5em;
-  line-height: .5em;
+  line-height: 2em;
 }
 
 h3{
-  line-height: .5em;
+  line-height: 2em;
 }
 
 p {
-  line-height: .5em;
+  line-height: 2em;
 }
 
 #app {
