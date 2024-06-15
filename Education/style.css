@@ -20,16 +20,15 @@ h1 {
 }
 
 h2{
-  margin-top: 1em;
-  line-height: 2em;
+  margin-top: .7em;
 }
 
 h3{
-  line-height: 2em;
+  margin-top: 1em;
 }
 
 p {
-  line-height: 2em;
+  margin-top: 1em;
 }
 
 #app {
