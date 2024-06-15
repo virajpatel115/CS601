@@ -94,6 +94,7 @@ main {
   
   .dropzone {
     margin: auto;
+    padding-bottom: 10px;
     width: 150px;
     height: 150px;
     display: flex;
@@ -101,6 +102,16 @@ main {
     justify-content: center;
     background-color: #f4f4f4;
     border: 2px dashed #ccc;
+  }
+  
+  h2{
+    text-align: center;
+    margin-top: .7em;
+  }
+  
+  h3{
+    text-align: center;
+    margin-top: 1em;
   }
 
   @media only screen and (max-width: 500px) {
