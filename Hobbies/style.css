@@ -17,22 +17,6 @@ main {
   flex:1;
 }
 
-.content h1 {
-    margin: 3rem 0;
-    padding: 0;
-    font-size: 5em;
-}
-
-.content h2 {
-    margin: 2rem 0;
-    padding: 0;
-    font-size: 3em;
-}
-
-.content p {
-    font-size: 1.5em;
-}
-
 .about {
     border-style: solid;
     border-color: white;
@@ -41,10 +25,37 @@ main {
     line-height: 3em;
 }
 
-.pic img{
-    height: 15em;
-    width: 15em;
+.my-slideshow {
+  max-width: 100%;
+  margin: auto;
 }
+
+
+.previous, .next {
+  position: absolute;
+  cursor: pointer;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+}
+
+.previous:hover, .next:hover {
+  background-color: black;
+}
+
+.text {
+  font-size: 25px;
+}
+
+.dot {
+  cursor: pointer;
+  display: inline-block;
+
+}
+
+/* Drag & Drop API */
 
 .info {
     border-style: solid;

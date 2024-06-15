@@ -20,14 +20,39 @@
         <div id="header"></div>
         <main>
             <div class="about" id="about">
-                <div class="content">
-                    <h1>Viraj Patel</h1>
-                    <p>I am an aspiring software developer, currently working
-                        as a Support Engineer in the payment software industry.
-                    </p>
+                <div class="my-slideshow">
+                    <div class="my-slides">
+                        <div class="number">1/4</div>
+                        <img src="./Images/basketball.jpg" style="width:100%">
+                        <div class="text">Basketball</div>
+                    </div>
+                    
+                    <div class="my-slides">
+                        <div class="number">2/4</div>
+                        <img src="./Images/traveling.jpg" style="width:100%">
+                        <div class="text">Basketball</div>
+                    </div>
+                    
+                    <div class="my-slides">
+                        <div class="number">3/4</div>
+                        <img src="./Images/gym.jpg" style="width:100%">
+                        <div class="text">Basketball</div>
+                    </div>
+                    
+                    <div class="my-slides">
+                        <div class="number">4/4</div>
+                        <img src="./Images/photography.jpg" style="width:100%">
+                        <div class="text">Basketball</div>
+                    </div>
+
+                    <a class="previous" onclick="moveSlides(-1)">&#8678;</a>
+                    <a class="next" onclick="moveSlides(1)">&#8680;</a>
                 </div>
-                <div class="pic">
-                    <img src="../Main.png">
+                <div style="text-align: center">
+                    <span class="dots" onclick="numSlide(1)"></span>
+                    <span class="dots" onclick="numSlide(2)"></span>
+                    <span class="dots" onclick="numSlide(3)"></span>
+                    <span class="dots" onclick="numSlide(4)"></span>
                 </div>
             </div>
     
@@ -40,6 +65,7 @@
             <div class="dropzone" id="drop-zone">Drop here</div>
         </main>
         <div id="footer"></div>
-        <script src="App.js"></script>
+        <script src="Drag.js"></script>
+        <script src="Slideshow.js"></script>
     </body>
 </html>
