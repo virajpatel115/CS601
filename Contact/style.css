@@ -17,7 +17,7 @@ form {
     margin: auto;
     width: 25em;
     padding: 3em;
-    background-color: lightblue;
+    background-color: lightseagreen;
     justify-content: center;
     text-align: center;
 }
@@ -46,7 +46,7 @@ form {
 }
 
 #success {
-    background-color: lightblue;
+    background-color: lightseagreen;
     font-size: 20px;
     text-align: center;
     margin: auto;
