@@ -104,12 +104,12 @@ main {
     border: 2px dashed #ccc;
   }
   
-  h2{
+  .section-drag h2{
     text-align: center;
     margin-top: .7em;
   }
   
-  h3{
+  .section-drag h3{
     text-align: center;
     margin-top: 1em;
   }
