@@ -12,6 +12,7 @@ body {
 }
 
 #title {
+    background-color: lightgrey;
     margin-top: 1em;
     text-align: center;
 }
