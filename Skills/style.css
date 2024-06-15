@@ -11,7 +11,7 @@ body {
     min-height: 100vh;
 }
 
-#title {
+.title {
     background-color: lightgrey;
     margin-top: 1em;
     text-align: center;
