@@ -23,5 +23,5 @@ function show(x) {
         dots[i].className = dots[i].className.replace("active", "");
     }
     slides[index-1].style.display = "block";
-    dots[index-1].className += "active";
+    dots[index-1].className += " active";
 }
