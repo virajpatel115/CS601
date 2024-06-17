@@ -122,8 +122,8 @@ main {
     }
 
     .my-slides img  {
-      max-height: 10%;
-      max-width: 10%;
+      max-height: 2em;
+      max-width: 2em;
     }
 
   }
