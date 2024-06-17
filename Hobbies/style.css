@@ -120,5 +120,9 @@ main {
       margin: 4rem 8rem;
     }
 
+    .my-slides  {
+      max-height: 50%;
+      max-width: 50%;
+    }
 
   }
