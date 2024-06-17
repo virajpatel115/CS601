@@ -33,4 +33,4 @@ In the project directory, you can run:
 
 ## Notes
 
-- Drag & Drop API does not work on mobile
+- Drag & Drop API does not work on mobile (which is intended).

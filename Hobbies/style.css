@@ -86,7 +86,6 @@ main {
     justify-content: center;
     border: 2px solid black;
     cursor: pointer;
-    touch-action:none;
   }
   
   .draggable:hover {
