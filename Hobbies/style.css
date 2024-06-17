@@ -30,8 +30,8 @@ main {
   margin: auto;
 }
 
+
 .previous, .next {
-  font-size: 2em;
   position: absolute;
   cursor: pointer;
   user-select: none;
@@ -46,6 +46,7 @@ main {
 }
 
 .text {
+  display: inline-block;
   font-size: 25px;
 }
 
