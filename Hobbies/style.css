@@ -114,7 +114,8 @@ main {
     }
 
     .dropzone {
-      margin: 4rem 8rem;
+      align-items: center;
+      justify-content: center;
     }
 
     .my-slides img  {
