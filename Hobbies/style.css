@@ -128,16 +128,8 @@ main {
     }
 
     .previous, .next {
-      font-size: 1em;
-      top:50%
-    }
-
-    .next {
-      right: 0em;
-    }
-    
-    .previous {
-      left: 0em;
+      font-size: 1.5em;
+      top:35%
     }
     
 
