@@ -71,7 +71,7 @@ main {
     width: 100px;
     height: 100px;
     display: flex;
-    color: white;
+    color: black;
     align-items: center;
     background-color: lightblue;
     justify-content: center;
