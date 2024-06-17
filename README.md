@@ -29,4 +29,4 @@ Viraj Patel
 
 ## Notes
 
-- Drag & Drop API does not work on mobile (which is intended).
+- Drag & Drop API does not work on mobile (which is intended and a known issue).
