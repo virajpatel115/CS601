@@ -17,11 +17,6 @@ main {
   flex:1;
 }
 
-.my-slides {
-  max-width: 5em;
-  max-height: 5em;
-}
-
 .section-slideshow {
     border-style: solid;
     border-color: white;
@@ -37,11 +32,10 @@ main {
 
 
 .previous, .next {
-  position: absolute;
+  font-size: 10em;
+  position: relative;
   cursor: pointer;
   user-select: none;
-  text-align: center;
-  justify-content: center;
 }
 
 .next {
@@ -136,8 +130,6 @@ main {
       max-width: 5em;
       max-height: 5em;
     }
-
-
 
 
 
