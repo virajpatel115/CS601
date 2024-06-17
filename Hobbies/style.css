@@ -73,14 +73,14 @@ main {
     display: flex;
     color: white;
     align-items: center;
-    background-color: orange;
+    background-color: lightblue;
     justify-content: center;
     border: 2px solid black;
     cursor: pointer;
   }
   
   .draggable:hover {
-    background-color: orangered;
+    background-color: blue;
   }
   
   .draggable.dragging {

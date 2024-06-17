@@ -5,12 +5,12 @@ const dropZone = document.getElementById('drop-zone');
 draggables.forEach(function(dragItem) {
   dragItem.addEventListener('dragstart', ev => {
     ev.dataTransfer.setData('text', ev.target.id);
-    ev.target.classList.add('dragging'); // Add the class to change the border
+    ev.target.classList.add('dragging'); 
   });
 
   dragItem.addEventListener('dragstart', ev => {
     ev.dataTransfer.setData('text', ev.target.id);
-    ev.target.classList.add('dragging'); // Add the class to change the border
+    ev.target.classList.add('dragging'); 
   });
   
   dragItem.addEventListener('drag', ev => ev.target.classList.add('dragging'));
@@ -22,7 +22,7 @@ draggables.forEach(function(dragItem) {
 
 
 // Event listeners for the drop zone
-dropZone.addEventListener('dragover', ev => ev.preventDefault()); // Necessary to allow the drop
+dropZone.addEventListener('dragover', ev => ev.preventDefault()); 
 
 dropZone.addEventListener('drop', ev => {
   ev.preventDefault();
@@ -30,17 +30,15 @@ dropZone.addEventListener('drop', ev => {
   const draggableElement = document.getElementById(data);
   if(draggableElement.id === "drag-item2") {
     ev.target.appendChild(draggableElement);
-    ev.target.style.border = '2px dashed #ccc'; // Reset border if needed
+    ev.target.style.border = '2px dashed #ccc'; 
     ev.target.style.backgroundColor = "";
   }
 });
 
 dropZone.addEventListener('dragenter', ev => {
-  ev.target.style.border = '2px dashed blue'; // Highlight for user feedback
-  ev.target.style.backgroundColor = 'yellow'
+  ev.target.style.border = '2px dashed black'; 
 });
 
 dropZone.addEventListener('dragleave', ev => {
-  ev.target.style.border = '2px dashed #ccc'; // Reset border if needed
-  ev.target.style.backgroundColor = "None";
+  ev.target.style.border = '2px dashed gray'; 
 });
