@@ -36,9 +36,9 @@ dropZone.addEventListener('drop', ev => {
 });
 
 dropZone.addEventListener('dragenter', ev => {
-  ev.target.style.border = '2px dashed black'; 
+  ev.target.style.border = '5px dashed green'; 
 });
 
 dropZone.addEventListener('dragleave', ev => {
-  ev.target.style.border = '2px dashed gray'; 
+  ev.target.style.border = '5px dashed black'; 
 });
