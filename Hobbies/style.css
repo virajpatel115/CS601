@@ -36,10 +36,10 @@ main {
 }
 
 .previous, .next {
-  position: relative;
+  position: absolute;
   cursor: pointer;
   user-select: none;
-  font-size: 1em;
+  font-size: 3em;
 }
 
 .next {
