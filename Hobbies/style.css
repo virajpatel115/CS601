@@ -35,6 +35,7 @@ main {
   position: absolute;
   cursor: pointer;
   user-select: none;
+  justify-content: center;
 }
 
 .next {
