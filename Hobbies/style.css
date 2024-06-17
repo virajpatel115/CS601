@@ -52,7 +52,7 @@ main {
 }
 
 .previous:hover, .next:hover {
-  color: black;
+  background-color: lightseagreen;
 }
 
 .text {
