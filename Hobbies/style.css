@@ -15,8 +15,6 @@ body {
 
 main {
   flex:1;
-  display: flex;
-  flex-direction: column;
 }
 
 .section-slideshow {
@@ -101,6 +99,16 @@ main {
     background-color: #f4f4f4;
     border: 2px dashed #ccc;
   }
+  
+  .section-drag h2{
+    text-align: center;
+    margin-top: .7em;
+  }
+  
+  .section-drag h3{
+    text-align: center;
+    margin-top: 1em;
+  }
 
   @media only screen and (max-width: 500px) {
     .content h1 {
@@ -113,9 +121,9 @@ main {
       margin: 4rem 8rem;
     }
 
-    .my-slides  {
-      max-height: 30%;
-      max-width: 30%;
+    .my-slides img  {
+      max-height: 25px;
+      max-width: 25px;
     }
 
   }
