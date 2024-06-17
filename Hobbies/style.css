@@ -36,7 +36,7 @@ main {
 }
 
 .previous, .next {
-  position: fixed;
+  position: relative;
   cursor: pointer;
   user-select: none;
   font-size: 3em;
