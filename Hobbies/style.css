@@ -30,6 +30,11 @@ main {
   margin: auto;
 }
 
+.my-slides img {
+  max-width:40em; 
+  max-height:40em;
+}
+
 
 .previous, .next {
   position: absolute;
