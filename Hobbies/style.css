@@ -30,10 +30,9 @@ main {
   margin: auto;
 }
 
-
 .previous, .next {
-  font-size: 10em;
-  position: relative;
+  font-size: 2em;
+  position: absolute;
   cursor: pointer;
   user-select: none;
 }
@@ -48,12 +47,6 @@ main {
 
 .text {
   font-size: 25px;
-}
-
-.dot {
-  cursor: pointer;
-  display: inline-block;
-
 }
 
 /* Drag & Drop API */
