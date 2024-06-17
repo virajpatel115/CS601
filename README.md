@@ -4,13 +4,20 @@ Viraj's Portfolio
 
 ## Description
 
-This project uses Create React App to develop a React application that represents a grocery store inventory.
+This project is a portfolio about myself that creatively displays what I have learned in CS601. 
 
-The inventory information displayed are SKU, Name, and Qty fields.
+The following project includes but is not limited to the following languages and topics: HTML5, CSS3, JavaScript, React, DOM, APIs (Drag and Drop API), and CSS Flexbox/Grid (no frameworks used).
 
-## Screenshot
+The website consists of 7 sections and 6 pages, all hosted on Github Pages:
 
-![screenshot](./screenshot.png)
+- Home & About Me section
+- Skills
+- Hobbies
+- Education
+- Resume
+- Contact me
+
+I hope you enjoy!
 
 ## Support
 
