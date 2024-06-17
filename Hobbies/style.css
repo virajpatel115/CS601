@@ -36,8 +36,7 @@ main {
 }
 
 .previous, .next {
-  position: absolute;
-  display: inline-block;
+  position: relative;
   cursor: pointer;
   user-select: none;
   justify-content: center;
@@ -45,6 +44,10 @@ main {
 
 .next {
   right: 0;
+}
+
+.previous {
+  left: 0
 }
 
 .previous:hover, .next:hover {
