@@ -37,10 +37,11 @@ main {
 
 
 .previous, .next {
-  font-size: 10em;
-  position: relative;
+  position: absolute;
   cursor: pointer;
   user-select: none;
+  text-align: center;
+  justify-content: center;
 }
 
 .next {
