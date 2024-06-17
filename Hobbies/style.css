@@ -35,9 +35,9 @@ main {
   max-height:40em;
 }
 
-
 .previous, .next {
   position: absolute;
+  display: inline-block;
   cursor: pointer;
   user-select: none;
   justify-content: center;
