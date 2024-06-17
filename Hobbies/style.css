@@ -40,7 +40,7 @@ main {
   cursor: pointer;
   user-select: none;
   font-size: 3em;
-  top:50%
+  top:50%;
 }
 
 .next {
