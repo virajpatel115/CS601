@@ -42,7 +42,6 @@ form {
 .row.success p {
     font-size: 4px;
     padding-bottom: 2px;
-    visibility: hidden;
 }
 
 #success {
