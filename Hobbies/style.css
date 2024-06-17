@@ -31,8 +31,8 @@ main {
 }
 
 .my-slides img {
-  max-width:10em; 
-  max-height:10em;
+  max-width:10rem; 
+  max-height:10rem;
 }
 
 .previous, .next {
@@ -127,8 +127,8 @@ main {
     }
 
     .my-slides img  {
-      max-height: 2rem;
-      max-width: 2rem;
+      max-height: 10rem;
+      max-width: 10rem;
     }
 
   }
