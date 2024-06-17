@@ -17,6 +17,11 @@ main {
   flex:1;
 }
 
+.my-slides {
+  max-width: 30em;
+  max-height: 30em;
+}
+
 .section-slideshow {
     border-style: solid;
     border-color: white;
@@ -124,6 +129,11 @@ main {
 
     .dropzone {
       margin: 4rem 8rem;
+    }
+
+    .my-slides {
+      max-width: 10em;
+      max-height: 10em;
     }
 
 
