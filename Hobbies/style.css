@@ -40,14 +40,15 @@ main {
   cursor: pointer;
   user-select: none;
   font-size: 3em;
+  top:25%
 }
 
 .next {
-  right: 0;
+  right: .8em;
 }
 
 .previous {
-  left: 0
+  left: .8em;
 }
 
 .previous:hover, .next:hover {
