@@ -4,7 +4,6 @@
   margin:0;
 }
 
-/* START OF BODY */
 body {
   display: flex;
   flex-direction: column;
@@ -46,9 +45,11 @@ p {
   margin: 10px 0;
   list-style-type: none;
 }
+
 .card:hover {
   background: #eee;
 }
+
 .app-container {
   background-color: lightseagreen;
   justify-content: center;
