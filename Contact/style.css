@@ -39,10 +39,9 @@ form {
     font-size: 15px;
 }
 
-.row.success p {
+#success p {
     font-size: 4px;
     padding-bottom: 2px;
-    visibility: hidden;
 }
 
 #success {
