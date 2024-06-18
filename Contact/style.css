@@ -55,6 +55,14 @@ form {
 
 @media only screen and (max-width: 550px) {
     form {
-      width: 15em;
+        width: 18em;
+    }
+
+    #title {
+        font-size: 1em;
+    }
+
+    .row {
+        font-size: .8em;
     }
 }
